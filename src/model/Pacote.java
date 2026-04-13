@@ -20,11 +20,12 @@ public class Pacote {
         return this.pesoEmKg;
     }
 
-    public void setPesoEmKg(double pesoEmKg){
+    private void setPesoEmKg(double pesoEmKg){
         if (pesoEmKg > 0) {
             this.pesoEmKg = pesoEmKg;
         } else {
             System.out.println("ERRO: Peso inválido");
+            this.pesoEmKg = 0.0;
         }
     }
 

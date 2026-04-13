@@ -7,7 +7,7 @@ public class Principal {
         Caminhao caminhaoDoNelson = new Caminhao("ABC-1234", 500, 3);
         Moto motoDoNelson = new Moto("DEF-5678", 20.0, true);
 
-        Pacote pacote1 = new Pacote("BR999",10.5);
+        Pacote pacote1 = new Pacote("BR999",15.0);
         Pacote pacote2 = new Pacote("BR888",2.0);
 
         System.out.println(">>> ROTA 1 <<<");

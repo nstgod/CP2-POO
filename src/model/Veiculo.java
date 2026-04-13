@@ -17,11 +17,12 @@ public class Veiculo {
         return this.capacidadeEmKg;
     }
 
-    public void setCapacidadeEmKg(double capacidadeEmKg){
+    private void setCapacidadeEmKg(double capacidadeEmKg){
         if(capacidadeEmKg > 0){
             this.capacidadeEmKg = capacidadeEmKg;
         } else {
             System.out.println("ERRO: Capacidade inválida");
+            this.capacidadeEmKg = 0.0;
         }
     }
 }
