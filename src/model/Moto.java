@@ -2,14 +2,14 @@ package model;
 
 public class Moto extends Veiculo {
 
-    private boolean possuiBau;
+    private boolean isPossuiBau;
 
-    public Moto(String placa, double capacidade, boolean possuiBau) {
+    public Moto(String placa, double capacidade, boolean isPossuiBau) {
         super(placa, capacidade);
-        this.possuiBau = possuiBau;
+        this.isPossuiBau = isPossuiBau;
     }
 
     public boolean isPossuiBau(){
-        return this.possuiBau;
+        return this.isPossuiBau;
     }
 }
