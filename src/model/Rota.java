@@ -14,6 +14,7 @@ public class Rota {
         if(this.pacote.getPesoEmKg() > this.veiculoUtilizado.getCapacidadeEmKg()){
             System.out.println("❌ Erro: Rota cancelada! O pacote de " + this.pacote.getPesoEmKg() +
                     "kg excede a capacidade do veículo de " + this.veiculoUtilizado.getCapacidadeEmKg() + "kg.");
+            return;
         }
 
         System.out.println("\n--- RESUMO DA ROTA ---");
